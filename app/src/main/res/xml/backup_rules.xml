@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+    Настройки резервного копирования для Android
+    Включаем SharedPreferences для сохранения пользовательских данных
+    -->
+    <include domain="sharedpref" path="."/>
+    <include domain="file" path="."/>
+</full-backup-content>
